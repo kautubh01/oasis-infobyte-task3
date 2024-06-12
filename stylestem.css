@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://imgcp.aacdn.jp/img-a/1720/auto/global-aaj-front/article/2016/06/5774dd60edea2_5774db77ce949_402444056.jpg');
+    font-family: 'Arial', sans-serif;
+    /* background-color: #dd0f0f; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.converter {
+    margin-top: 1rem;
+}
+
+input, select, button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.results p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
